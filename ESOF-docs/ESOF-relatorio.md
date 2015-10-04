@@ -14,6 +14,10 @@ Tendo o Kodi um design modular, é-lhe permitido crescer e evoluir de uma forma 
 
 Qualquer módulo pode ser alterado sem afetar diretamente o funcionamentos dos outros. Estes módulos são separados em grupos funcionais que são independentes uns dos outros, entre eles temos, *skins*(trata dos diferentes visuais do software, *interfaces*(módulo onde são criadas novas funcionalides), a gestão de conteúdo, o núcleo do software(onde se torna possível a reprodução de ficheiros de video e áudio) e por fim a partilha de ficheiros(módulo desenvolvido para ser possível o *download* e *stream* e partilha de ficheiros). 
 
+Modelo
+
+Kodi pela analise feita usa um modelo de desenvolvimento iterativo em que combina as vantagens do modelo queda d'água com o modelo de prototipação, este sistema existe um desenvolvimento de forma incremental, até que exista um produto estavel para lançamento.
+Uma vantagem desta abordagem é a facilidade para testar o sistema, visto que este é testado em todos os niveis, fazendo que o produto final aberto ao publico seja um produto estavel para mercado 
 
 
 
