@@ -6,4 +6,17 @@ Este permite  ainda a utilização de *add-ons*, expandindo assim o leque de fun
 
 Software Process
 
-A equipa de desenvolvimento do Kodi utiliza como base um processo de desenvolvimento de software que segue um modelo iterativo incremental, tendo em conta que o software está estruturado de uma forma modular rigorosa. Isto significa que qualquer modulo pode ser alterado sem afectar directamente o funcionamento dos outros. NOTA:Falar de conclusao de analise de builds e github, falar de builds,modelo iterativo e modular...
+A equipa de desenvolvimento do Kodi utiliza como base um processo de desenvolvimento de software que segue um modelo iterativo incremental, tendo em conta que o software está estruturado de uma forma modular rigorosa. 
+
+
+
+Tendo o Kodi um design modular, é-lhe permitido crescer e evoluir de uma forma eficiente uma vez que se pode inserir novos módulos ao software, sem termos o problema de o software deixar de funcionar o que facilita bastante a gestão do software.
+
+Qualquer módulo pode ser alterado sem afetar diretamente o funcionamentos dos outros. Estes módulos são separados em grupos funcionais que são independentes uns dos outros, entre eles temos, *skins*(trata dos diferentes visuais do software, *interfaces*(módulo onde são criadas novas funcionalides), a gestão de conteúdo, o núcleo do software(onde se torna possível a reprodução de ficheiros de video e áudio) e por fim a partilha de ficheiros(módulo desenvolvido para ser possível o *download* e *stream* e partilha de ficheiros). 
+
+
+
+
+
+
+NOTA:Falar de conclusao de analise de builds e github, falar de builds,modelo iterativo e modular...
