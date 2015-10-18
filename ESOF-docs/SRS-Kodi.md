@@ -66,4 +66,4 @@ Kodi precisa de um controlador GPU gráfico capaz de 3D para toda a renderizaç�
 
 **3.1 Requirement X.Y.Z (in Structured Natural Language)**
 
-![Use Cases Image](/path/usecases.png)
+![Use Cases Image](usecases.png)
