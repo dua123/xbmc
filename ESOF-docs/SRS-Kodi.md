@@ -1,21 +1,22 @@
 **Contents**
 
-1. Introduction
---* 1.1 Purpose
---* 1.2 Scope
---* 1.3 Definitions, acronyms and abbreviations
---* 1.4 References
---* 1.5 Overview of the remainder of the document
+**1. Introduction**
+
+* 1.1 Purpose
+* 1.2 Scope
+* 1.3 Definitions, acronyms and abbreviations
+* 1.4 References
+* 1.5 Overview of the remainder of the document
    
 **2. General description**
-*2.1 Product perspective*
-*2.2 Product functions*
-*2.3 User characteristics*
-*2.4 General constraints*
-*2.5 Assumptions and dependencies*
+* 2.1 Product perspective
+* 2.2 Product functions
+* 2.3 User characteristics
+* 2.4 General constraints
+* 2.5 Assumptions and dependencies
    
 **3. Specific requirements, covering functional, non-functional and interface requirements**
-*3.1 Requirement X.Y.Z (in Structured Natural Language)*
+* 3.1 Requirement X.Y.Z (in Structured Natural Language)*
    
   
 **1.Introduction**
