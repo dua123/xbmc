@@ -13,7 +13,9 @@ Kodi media player,representado nesta imagem mostrando o interior das funcionalid
 A imagem representa o modelo simples das funcionalidades do kodi, apresentando a interação entre os dispositivos.
 
 Leitores: parte do kodi que lê e abre os ficheiros. Esta é umas das funcionalidades mais usadas, servindo-se de codecs e bibliotecas partilhadas.
+
 Bibliotecas: onde se guarda o contêudo de entertenimento.
+
 Tv: Tv ao vivo é tambem uma das funcionalidades mais usadas.
 
 ## Visão do Processo
