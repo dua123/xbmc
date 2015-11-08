@@ -16,8 +16,6 @@ Leitores: parte do kodi que lê e abre os ficheiros. Esta é umas das funcionali
 
 Bibliotecas: onde se guarda o contêudo de entertenimento.
 
-Tv: Tv ao vivo é tambem uma das funcionalidades mais usadas.
-
 ## Visão do Processo
 
 ![Process View Image](Process_View.png)
