@@ -4,7 +4,7 @@
 
 ![Use Cases Image](Use_Case_View.png)
 
-Kodi media player,representado nesta imagem mostrando o interior das funcionalidades, com o interface gráfico e principais interações e a interação entre elas.
+Kodi media player,representado nesta imagem mostrando o interior das funcionalidades, com o interface gráfico e principais interações entre elas.
 
 ## Visão Lógica
 
