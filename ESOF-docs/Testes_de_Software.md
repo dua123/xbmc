@@ -6,7 +6,7 @@ O Kodi, como já foi dito nos trabalhos anteriores, é desenvolvido numa estrutu
 
 Os módulos de teste do Kodi utilizam a unit testing library gtest.
 
-**Degree of Testability of the software program**
+**1.Degree of Testability of the software program**
 
 * Controllability
 
