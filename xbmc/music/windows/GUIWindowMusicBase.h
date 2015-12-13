@@ -46,7 +46,7 @@ public:
   virtual bool OnAction(const CAction &action);
   virtual bool OnBack(int actionID);
 
-  void OnInfo(CFileItem *pItem, bool bShowInfo = false);
+  void OnItemInfo(CFileItem *pItem, bool bShowInfo = false);
 
   void DoScan(const std::string &strPath);
 protected:
@@ -81,8 +81,8 @@ protected:
   virtual bool OnPlayMedia(int iItem);
 
   void RetrieveMusicInfo();
-  void OnInfo(int iItem, bool bShowInfo = true);
-  void OnInfoAll(int iItem, bool bCurrent=false, bool refresh=false);
+  void OnItemInfo(int iItem, bool bShowInfo = true);
+  void OnItemInfoAll(int iItem, bool bCurrent=false, bool refresh=false);
   virtual void OnQueueItem(int iItem);
   enum ALLOW_SELECTION { SELECTION_ALLOWED = 0, SELECTION_AUTO, SELECTION_FORCED };
   bool FindAlbumInfo(const CFileItem* album, MUSIC_GRABBER::CMusicAlbumInfo& albumInfo, ALLOW_SELECTION allowSelection);
@@ -101,8 +101,6 @@ protected:
   typedef std::vector <CFileItem*>::iterator ivecItems; ///< CFileItem* vector Iterator
   CGUIDialogProgress* m_dlgProgress; ///< Progress dialog
 
-  // member variables to save frequently used CSettings (which is slow)
-  bool m_hideExtensions;
   CMusicDatabase m_musicdatabase;
   MUSIC_INFO::CMusicInfoLoader m_musicInfoLoader;
 
