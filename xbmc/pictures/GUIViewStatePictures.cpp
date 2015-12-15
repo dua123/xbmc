@@ -38,8 +38,6 @@ CGUIViewStateWindowPictures::CGUIViewStateWindowPictures(const CFileItemList& it
   {
     AddSortMethod(SortByLabel, 551, LABEL_MASKS());
     AddSortMethod(SortByDriveType, 564, LABEL_MASKS());
-	//Alterado
-	AddSortMethod(SortByRandom, 590, LABEL_MASKS());
     SetSortMethod(SortByLabel);
 
     SetViewAsControl(DEFAULT_VIEW_LIST);
@@ -53,9 +51,6 @@ CGUIViewStateWindowPictures::CGUIViewStateWindowPictures(const CFileItemList& it
     AddSortMethod(SortByDate, 552, LABEL_MASKS("%L", "%J", "%L", "%J"));  // Filename, Date | Foldername, Date
     AddSortMethod(SortByDateTaken, 577, LABEL_MASKS("%L", "%t", "%L", "%J"));  // Filename, DateTaken | Foldername, Date
     AddSortMethod(SortByFile, 561, LABEL_MASKS("%L", "%I", "%L", ""));  // Filename, Size | FolderName, empty
-
-	//Alterado
-	AddSortMethod(SortByRandom, 590, LABEL_MASKS("%L", "%I", "%L", ""));
 
     const CViewState *viewState = CViewStateSettings::Get().Get("pictures");
     SetSortMethod(viewState->m_sortDescription);

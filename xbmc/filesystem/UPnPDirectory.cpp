@@ -358,9 +358,6 @@ CUPnPDirectory::GetDirectory(const CURL& url, CFileItemList &items)
           items.AddSortMethod(SortByLabel, SortAttributeIgnoreFolders, 551, LABEL_MASKS("%L", "%I", "%L", ""));
           items.AddSortMethod(SortBySize, 553, LABEL_MASKS("%L", "%I", "%L", "%I"));
           items.AddSortMethod(SortByDate, 552, LABEL_MASKS("%L", "%J", "%L", "%J"));
-
-		  //ALterado
-		  items.AddSortMethod(SortByRandom, 590, LABEL_MASKS("%L", "%J", "%L", "%J"));
         }
     }
 

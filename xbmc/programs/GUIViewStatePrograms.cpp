@@ -34,8 +34,6 @@ CGUIViewStateWindowPrograms::CGUIViewStateWindowPrograms(const CFileItemList& it
 {
   AddSortMethod(SortByLabel, 551, LABEL_MASKS("%K", "%I", "%L", ""),  // Titel, Size | Foldername, empty
     CSettings::Get().GetBool("filelists.ignorethewhensorting") ? SortAttributeIgnoreArticle : SortAttributeNone);
-  //Alterado
-  AddSortMethod(SortByRandom, 590, LABEL_MASKS("%K", "%I", "%L", ""));
 
   const CViewState *viewState = CViewStateSettings::Get().Get("programs");
   SetSortMethod(viewState->m_sortDescription);

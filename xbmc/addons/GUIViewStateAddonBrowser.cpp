@@ -40,8 +40,6 @@ CGUIViewStateAddonBrowser::CGUIViewStateAddonBrowser(const CFileItemList& items)
   else
   {
     AddSortMethod(SortByLabel, SortAttributeIgnoreFolders, 551, LABEL_MASKS("%L", "%I", "%L", ""));  // Filename, Size | Foldername, empty
-	//Alterado
-	AddSortMethod(SortByRandom, 590, LABEL_MASKS("%F", "%I", "%L", ""));
     SetSortMethod(SortByLabel);
   }
   SetViewAsControl(DEFAULT_VIEW_AUTO);

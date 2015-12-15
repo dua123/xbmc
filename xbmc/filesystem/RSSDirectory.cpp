@@ -617,9 +617,6 @@ bool CRSSDirectory::GetDirectory(const CURL& url, CFileItemList &items)
   items.AddSortMethod(SortBySize   , 553, LABEL_MASKS("%L", "%I", "%L", "%I"));  // FileName, Size | Foldername, Size
   items.AddSortMethod(SortByDate   , 552, LABEL_MASKS("%L", "%J", "%L", "%J"));  // FileName, Date | Foldername, Date
 
-  //Alterado
-  items.AddSortMethod(SortByRandom, 590, LABEL_MASKS("%L", "%D", "%L", ""));
-
   CDateTime time = CDateTime::GetCurrentDateTime();
   int mins = 60;
   TiXmlElement* ttl = docHandle.FirstChild("rss").FirstChild("ttl").Element();
