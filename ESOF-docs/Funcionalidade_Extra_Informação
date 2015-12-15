@@ -1,0 +1,3 @@
+Para adicionar uma nova funcionalidade tivémos que arranjar uma versão anterior, visto que aquela que tinhamos feito fork não estava estável.
+Deste modo, antes de fazer commit, tivémos de apagar a versão que tínhamos e adicionámos a nossa já alterada.
+Para se poder ver o que foi feito, as funções criadas/alterado encontram-se precedidas por "//Alterado".
