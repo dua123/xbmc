@@ -14,13 +14,13 @@ A imagem representa o modelo simples das funcionalidades do kodi, apresentando a
 
 Leitores: parte do kodi que lê e abre os ficheiros. Esta é umas das funcionalidades mais usadas, servindo-se de codecs e bibliotecas partilhadas.
 
-Bibliotecas: onde se guarda o contêudo de entertenimento.
+Bibliotecas: onde se guarda o conteúdo de entretenimento.
 
 ## Visão do Processo
 
 ![Process View Image](Process_View.png)
 
-Nesta visão podemos perceber como os vários processos do Kodi interagem entre eles, em tempo de execução. Como podemos ver a maioria dos processos de Video,Imagem e Musica alimentam o player respectivo. É possivel ainda perceber a interação que o Kodi tem com o sistema operativo.
+Nesta visão podemos perceber como os vários processos do Kodi interagem entre eles, em tempo de execução. Como podemos ver a maioria dos processos de Vídeo,Imagem e Música alimentam o player respectivo. É possível ainda perceber a interação que o Kodi tem com o sistema operativo.
 
 ## Visão de Implementação
 
@@ -37,6 +37,6 @@ De seguida, o módulo “Interfaces” é integrado por todos os ficheiros e pac
 
 Passando agora para o módulo das “skins”, que é o módulo mais popular para criadores externos, é onde se encontram os ficheiros associados às translações, tipos de letra e aspeto do software.
 
-Por último, temos o módulo “fire sharing” que se especializa na partilha de ficheiros. Este módulo está relaciona com “add-ons” relacionados com “download”, “streaming” e partilha. Um exemplo disto são os fornecedores baseados em FTP que publicam filmes, áudio e software próprio para “download” a rápida velocidade.
+Por último, temos o módulo “fire sharing” que se especializa na partilha de ficheiros. Este módulo está relacionado com “add-ons” que tratom de “download”, “streaming” e partilha. Um exemplo disto são os fornecedores baseados em FTP que publicam filmes, áudio e software próprio para “download” a rápida velocidade.
 
 
