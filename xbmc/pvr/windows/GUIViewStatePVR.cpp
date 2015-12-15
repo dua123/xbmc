@@ -31,6 +31,9 @@ CGUIViewStateWindowPVRChannels::CGUIViewStateWindowPVRChannels(const int windowI
   AddSortMethod(SortByChannelNumber, 549, LABEL_MASKS("%L", "%I", "%L", ""));
   AddSortMethod(SortByLabel, 551, LABEL_MASKS("%L", "%I", "%L", ""));
 
+  //Alterado
+  AddSortMethod(SortByRandom, 590, LABEL_MASKS("%L", "%I", "%L", ""));
+
   // Default sorting
   SetSortMethod(SortByChannelNumber);
 
@@ -48,6 +51,9 @@ CGUIViewStateWindowPVRRecordings::CGUIViewStateWindowPVRRecordings(const int win
   AddSortMethod(SortByDate, 552, LABEL_MASKS("%L", "%J", "%L", "%J"));  // FileName, Date | Foldername, Date
   AddSortMethod(SortByTime, 180, LABEL_MASKS("%T", "%D"));
   AddSortMethod(SortByFile, 561, LABEL_MASKS("%L", "%I", "%L", ""));  // Filename, Size | FolderName, empty
+
+  //Alterado
+  AddSortMethod(SortByRandom, 590, LABEL_MASKS("%L", "%I", "%L", ""));
 
   // Default sorting
   SetSortMethod(SortByDate);
@@ -80,6 +86,9 @@ CGUIViewStateWindowPVRTimers::CGUIViewStateWindowPVRTimers(const int windowId, c
   AddSortMethod(SortByLabel, 551, LABEL_MASKS("%L", "%I", "%L", ""));   // FileName, Size | Foldername, empty
   AddSortMethod(SortByDate, 552, LABEL_MASKS("%L", "%J", "%L", "%J"));  // FileName, Date | Foldername, Date
 
+  //Alterado
+  AddSortMethod(SortByRandom, 590, LABEL_MASKS("%L", "%J", "%L", "%J"));
+
   // Default sorting
   SetSortMethod(SortByDate);
 
@@ -95,6 +104,9 @@ CGUIViewStateWindowPVRSearch::CGUIViewStateWindowPVRSearch(const int windowId, c
 {
   AddSortMethod(SortByLabel, 551, LABEL_MASKS("%L", "%I", "%L", ""));   // FileName, Size | Foldername, empty
   AddSortMethod(SortByDate, 552, LABEL_MASKS("%L", "%J", "%L", "%J"));  // FileName, Date | Foldername, Date
+
+  //Alterado
+  AddSortMethod(SortByRandom, 590, LABEL_MASKS("%L", "%J", "%L", "%J"));
 
   // Default sorting
   SetSortMethod(SortByDate);

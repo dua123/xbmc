@@ -648,6 +648,8 @@ public:
   void AddSortMethod(SortBy sortBy, int buttonLabel, const LABEL_MASKS &labelMasks, SortAttribute sortAttributes = SortAttributeNone);
   void AddSortMethod(SortBy sortBy, SortAttribute sortAttributes, int buttonLabel, const LABEL_MASKS &labelMasks);
   void AddSortMethod(SortDescription sortDescription, int buttonLabel, const LABEL_MASKS &labelMasks);
+  
+
   bool HasSortDetails() const { return m_sortDetails.size() != 0; }
   const std::vector<GUIViewSortDetails> &GetSortDetails() const { return m_sortDetails; }
 

@@ -528,6 +528,8 @@ void CGUIViewState::AddPlaylistOrder(const CFileItemList &items, LABEL_MASKS lab
 CGUIViewStateGeneral::CGUIViewStateGeneral(const CFileItemList& items) : CGUIViewState(items)
 {
   AddSortMethod(SortByLabel, 551, LABEL_MASKS("%F", "%I", "%L", ""));  // Filename, size | Foldername, empty
+  //Alterado
+  AddSortMethod(SortByRandom, 590, LABEL_MASKS("%F", "%I", "%L", ""));
   SetSortMethod(SortByLabel);
 
   SetViewAsControl(DEFAULT_VIEW_LIST);
@@ -571,6 +573,8 @@ void CGUIViewStateFromItems::SaveViewState()
 CGUIViewStateLibrary::CGUIViewStateLibrary(const CFileItemList &items) : CGUIViewState(items)
 {
   AddSortMethod(SortByNone, 551, LABEL_MASKS("%F", "%I", "%L", ""));  // Filename, Size | Foldername, empty
+  //Alterado
+  AddSortMethod(SortByRandom, 590, LABEL_MASKS("%F", "%I", "%L", ""));
   SetSortMethod(SortByNone);
 
   SetViewAsControl(DEFAULT_VIEW_LIST);

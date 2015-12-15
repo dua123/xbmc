@@ -380,6 +380,7 @@ string ByDateTaken(SortAttribute attributes, const SortItem &values)
   return values.at(FieldDateTaken).asString();
 }
 
+
 bool preliminarySort(const SortItem &left, const SortItem &right, bool handleFolder, bool &result, std::wstring &labelLeft, std::wstring &labelRight)
 {
   // make sure both items have the necessary data to do the sorting
@@ -558,6 +559,9 @@ map<SortBy, SortUtils::SortPreparator> fillPreparators()
   preparators[SortByChannelNumber]            = ByChannelNumber;
   preparators[SortByDateTaken]                = ByDateTaken;
 
+  //Alterado
+  preparators[SortByRandom]                   = ByRandom;
+
   return preparators;
 }
 
@@ -630,6 +634,10 @@ map<SortBy, Fields> fillSortingFields()
   sortingFields[SortByChannel].insert(FieldChannelName);
   sortingFields[SortByChannelNumber].insert(FieldChannelNumber);
   sortingFields[SortByDateTaken].insert(FieldDateTaken);
+
+  //Alterado
+  sortingFields[SortByRandom].insert(FieldRandom);
+
   sortingFields.insert(pair<SortBy, Fields>(SortByRandom, Fields()));
 
   return sortingFields;
