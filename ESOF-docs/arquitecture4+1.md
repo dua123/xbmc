@@ -35,7 +35,7 @@ Em segundo, o módulo “Content Managment” é composto por todos os ficheiros
 
 De seguida, o módulo “Interfaces” é integrado por todos os ficheiros e pacotes relacionados, entre outros, com “add-ons”, “streaming clients”, servidores e bibliotecas exteriores. Neste caso, é possível visualizar como é que o resto do sistema continua a trabalhar enquanto um “add-on” não está a funcionar corretamente. Como os “add-ons” são criados por criadores externos é mais provável a ocorrência de erros uma vez que os mesmos têm menos conhecimento acerca do sistema.
 
-Passando agora para o módulo das “skins”, que é o módulo mais popular para criadores externos, é onde se encontram os ficheiros associados às translações, tipos de letra e aspeto do software.
+Passando agora para o módulo das “skins”, que é o módulo mais popular para criadores externos, é onde se encontram os ficheiros associados às traduções, tipos de letra e aspeto do software.
 
 Por último, temos o módulo “fire sharing” que se especializa na partilha de ficheiros. Este módulo está relacionado com “add-ons” que tratom de “download”, “streaming” e partilha. Um exemplo disto são os fornecedores baseados em FTP que publicam filmes, áudio e software próprio para “download” a rápida velocidade.
 
